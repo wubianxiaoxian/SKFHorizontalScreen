@@ -15,6 +15,8 @@
 		1DF0BC091D30D58C0003214D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF0BC071D30D58C0003214D /* LaunchScreen.storyboard */; };
 		1DF0BC141D30D58C0003214D /* SKFHorizontalScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0BC131D30D58C0003214D /* SKFHorizontalScreenTests.m */; };
 		1DF0BC1F1D30D58C0003214D /* SKFHorizontalScreenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0BC1E1D30D58C0003214D /* SKFHorizontalScreenUITests.m */; };
+		1DF0BC2E1D30D5DC0003214D /* SViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0BC2D1D30D5DC0003214D /* SViewController.m */; };
+		1DF0BC311D30D9920003214D /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0BC301D30D9920003214D /* PushViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1DF0BC1A1D30D58C0003214D /* SKFHorizontalScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKFHorizontalScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF0BC1E1D30D58C0003214D /* SKFHorizontalScreenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKFHorizontalScreenUITests.m; sourceTree = "<group>"; };
 		1DF0BC201D30D58C0003214D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF0BC2C1D30D5DC0003214D /* SViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SViewController.h; sourceTree = "<group>"; };
+		1DF0BC2D1D30D5DC0003214D /* SViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SViewController.m; sourceTree = "<group>"; };
+		1DF0BC2F1D30D9920003214D /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		1DF0BC301D30D9920003214D /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 			children = (
 				1DF0BBFC1D30D58C0003214D /* AppDelegate.h */,
 				1DF0BBFD1D30D58C0003214D /* AppDelegate.m */,
+				1DF0BC2F1D30D9920003214D /* PushViewController.h */,
+				1DF0BC301D30D9920003214D /* PushViewController.m */,
+				1DF0BC2C1D30D5DC0003214D /* SViewController.h */,
+				1DF0BC2D1D30D5DC0003214D /* SViewController.m */,
 				1DF0BBFF1D30D58C0003214D /* ViewController.h */,
 				1DF0BC001D30D58C0003214D /* ViewController.m */,
 				1DF0BC021D30D58C0003214D /* Main.storyboard */,
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DF0BC011D30D58C0003214D /* ViewController.m in Sources */,
+				1DF0BC311D30D9920003214D /* PushViewController.m in Sources */,
 				1DF0BBFE1D30D58C0003214D /* AppDelegate.m in Sources */,
+				1DF0BC2E1D30D5DC0003214D /* SViewController.m in Sources */,
 				1DF0BBFB1D30D58C0003214D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SKFHorizontalScreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = s.SKFHorizontalScreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SKFHorizontalScreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = s.SKFHorizontalScreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
