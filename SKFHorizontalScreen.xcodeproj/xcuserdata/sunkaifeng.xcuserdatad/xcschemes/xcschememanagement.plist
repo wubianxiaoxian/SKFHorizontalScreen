@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SKFHorizontalScreen.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1DF0BBF51D30D58C0003214D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1DF0BC0E1D30D58C0003214D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1DF0BC191D30D58C0003214D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

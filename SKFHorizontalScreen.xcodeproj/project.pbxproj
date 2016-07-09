@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DF0BBFB1D30D58C0003214D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0BBFA1D30D58C0003214D /* main.m */; };
+		1DF0BBFE1D30D58C0003214D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0BBFD1D30D58C0003214D /* AppDelegate.m */; };
+		1DF0BC011D30D58C0003214D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0BC001D30D58C0003214D /* ViewController.m */; };
+		1DF0BC041D30D58C0003214D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF0BC021D30D58C0003214D /* Main.storyboard */; };
+		1DF0BC061D30D58C0003214D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF0BC051D30D58C0003214D /* Assets.xcassets */; };
+		1DF0BC091D30D58C0003214D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF0BC071D30D58C0003214D /* LaunchScreen.storyboard */; };
+		1DF0BC141D30D58C0003214D /* SKFHorizontalScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0BC131D30D58C0003214D /* SKFHorizontalScreenTests.m */; };
+		1DF0BC1F1D30D58C0003214D /* SKFHorizontalScreenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0BC1E1D30D58C0003214D /* SKFHorizontalScreenUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DF0BC101D30D58C0003214D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF0BBEE1D30D58C0003214D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF0BBF51D30D58C0003214D;
+			remoteInfo = SKFHorizontalScreen;
+		};
+		1DF0BC1B1D30D58C0003214D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF0BBEE1D30D58C0003214D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF0BBF51D30D58C0003214D;
+			remoteInfo = SKFHorizontalScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DF0BBF61D30D58C0003214D /* SKFHorizontalScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKFHorizontalScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF0BBFA1D30D58C0003214D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DF0BBFC1D30D58C0003214D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DF0BBFD1D30D58C0003214D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DF0BBFF1D30D58C0003214D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1DF0BC001D30D58C0003214D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DF0BC031D30D58C0003214D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DF0BC051D30D58C0003214D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DF0BC081D30D58C0003214D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DF0BC0A1D30D58C0003214D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF0BC0F1D30D58C0003214D /* SKFHorizontalScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKFHorizontalScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF0BC131D30D58C0003214D /* SKFHorizontalScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKFHorizontalScreenTests.m; sourceTree = "<group>"; };
+		1DF0BC151D30D58C0003214D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF0BC1A1D30D58C0003214D /* SKFHorizontalScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKFHorizontalScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF0BC1E1D30D58C0003214D /* SKFHorizontalScreenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKFHorizontalScreenUITests.m; sourceTree = "<group>"; };
+		1DF0BC201D30D58C0003214D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DF0BBF31D30D58C0003214D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF0BC0C1D30D58C0003214D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF0BC171D30D58C0003214D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DF0BBED1D30D58C0003214D = {
+			isa = PBXGroup;
+			children = (
+				1DF0BBF81D30D58C0003214D /* SKFHorizontalScreen */,
+				1DF0BC121D30D58C0003214D /* SKFHorizontalScreenTests */,
+				1DF0BC1D1D30D58C0003214D /* SKFHorizontalScreenUITests */,
+				1DF0BBF71D30D58C0003214D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DF0BBF71D30D58C0003214D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DF0BBF61D30D58C0003214D /* SKFHorizontalScreen.app */,
+				1DF0BC0F1D30D58C0003214D /* SKFHorizontalScreenTests.xctest */,
+				1DF0BC1A1D30D58C0003214D /* SKFHorizontalScreenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DF0BBF81D30D58C0003214D /* SKFHorizontalScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1DF0BBFC1D30D58C0003214D /* AppDelegate.h */,
+				1DF0BBFD1D30D58C0003214D /* AppDelegate.m */,
+				1DF0BBFF1D30D58C0003214D /* ViewController.h */,
+				1DF0BC001D30D58C0003214D /* ViewController.m */,
+				1DF0BC021D30D58C0003214D /* Main.storyboard */,
+				1DF0BC051D30D58C0003214D /* Assets.xcassets */,
+				1DF0BC071D30D58C0003214D /* LaunchScreen.storyboard */,
+				1DF0BC0A1D30D58C0003214D /* Info.plist */,
+				1DF0BBF91D30D58C0003214D /* Supporting Files */,
+			);
+			path = SKFHorizontalScreen;
+			sourceTree = "<group>";
+		};
+		1DF0BBF91D30D58C0003214D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DF0BBFA1D30D58C0003214D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DF0BC121D30D58C0003214D /* SKFHorizontalScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DF0BC131D30D58C0003214D /* SKFHorizontalScreenTests.m */,
+				1DF0BC151D30D58C0003214D /* Info.plist */,
+			);
+			path = SKFHorizontalScreenTests;
+			sourceTree = "<group>";
+		};
+		1DF0BC1D1D30D58C0003214D /* SKFHorizontalScreenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DF0BC1E1D30D58C0003214D /* SKFHorizontalScreenUITests.m */,
+				1DF0BC201D30D58C0003214D /* Info.plist */,
+			);
+			path = SKFHorizontalScreenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DF0BBF51D30D58C0003214D /* SKFHorizontalScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF0BC231D30D58C0003214D /* Build configuration list for PBXNativeTarget "SKFHorizontalScreen" */;
+			buildPhases = (
+				1DF0BBF21D30D58C0003214D /* Sources */,
+				1DF0BBF31D30D58C0003214D /* Frameworks */,
+				1DF0BBF41D30D58C0003214D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKFHorizontalScreen;
+			productName = SKFHorizontalScreen;
+			productReference = 1DF0BBF61D30D58C0003214D /* SKFHorizontalScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DF0BC0E1D30D58C0003214D /* SKFHorizontalScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF0BC261D30D58C0003214D /* Build configuration list for PBXNativeTarget "SKFHorizontalScreenTests" */;
+			buildPhases = (
+				1DF0BC0B1D30D58C0003214D /* Sources */,
+				1DF0BC0C1D30D58C0003214D /* Frameworks */,
+				1DF0BC0D1D30D58C0003214D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DF0BC111D30D58C0003214D /* PBXTargetDependency */,
+			);
+			name = SKFHorizontalScreenTests;
+			productName = SKFHorizontalScreenTests;
+			productReference = 1DF0BC0F1D30D58C0003214D /* SKFHorizontalScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DF0BC191D30D58C0003214D /* SKFHorizontalScreenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF0BC291D30D58C0003214D /* Build configuration list for PBXNativeTarget "SKFHorizontalScreenUITests" */;
+			buildPhases = (
+				1DF0BC161D30D58C0003214D /* Sources */,
+				1DF0BC171D30D58C0003214D /* Frameworks */,
+				1DF0BC181D30D58C0003214D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DF0BC1C1D30D58C0003214D /* PBXTargetDependency */,
+			);
+			name = SKFHorizontalScreenUITests;
+			productName = SKFHorizontalScreenUITests;
+			productReference = 1DF0BC1A1D30D58C0003214D /* SKFHorizontalScreenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DF0BBEE1D30D58C0003214D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "孙凯峰";
+				TargetAttributes = {
+					1DF0BBF51D30D58C0003214D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1DF0BC0E1D30D58C0003214D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1DF0BBF51D30D58C0003214D;
+					};
+					1DF0BC191D30D58C0003214D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1DF0BBF51D30D58C0003214D;
+					};
+				};
+			};
+			buildConfigurationList = 1DF0BBF11D30D58C0003214D /* Build configuration list for PBXProject "SKFHorizontalScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DF0BBED1D30D58C0003214D;
+			productRefGroup = 1DF0BBF71D30D58C0003214D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DF0BBF51D30D58C0003214D /* SKFHorizontalScreen */,
+				1DF0BC0E1D30D58C0003214D /* SKFHorizontalScreenTests */,
+				1DF0BC191D30D58C0003214D /* SKFHorizontalScreenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DF0BBF41D30D58C0003214D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF0BC091D30D58C0003214D /* LaunchScreen.storyboard in Resources */,
+				1DF0BC061D30D58C0003214D /* Assets.xcassets in Resources */,
+				1DF0BC041D30D58C0003214D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF0BC0D1D30D58C0003214D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF0BC181D30D58C0003214D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DF0BBF21D30D58C0003214D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF0BC011D30D58C0003214D /* ViewController.m in Sources */,
+				1DF0BBFE1D30D58C0003214D /* AppDelegate.m in Sources */,
+				1DF0BBFB1D30D58C0003214D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF0BC0B1D30D58C0003214D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF0BC141D30D58C0003214D /* SKFHorizontalScreenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF0BC161D30D58C0003214D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF0BC1F1D30D58C0003214D /* SKFHorizontalScreenUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DF0BC111D30D58C0003214D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF0BBF51D30D58C0003214D /* SKFHorizontalScreen */;
+			targetProxy = 1DF0BC101D30D58C0003214D /* PBXContainerItemProxy */;
+		};
+		1DF0BC1C1D30D58C0003214D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF0BBF51D30D58C0003214D /* SKFHorizontalScreen */;
+			targetProxy = 1DF0BC1B1D30D58C0003214D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DF0BC021D30D58C0003214D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DF0BC031D30D58C0003214D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DF0BC071D30D58C0003214D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DF0BC081D30D58C0003214D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DF0BC211D30D58C0003214D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DF0BC221D30D58C0003214D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DF0BC241D30D58C0003214D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKFHorizontalScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.SKFHorizontalScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DF0BC251D30D58C0003214D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKFHorizontalScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.SKFHorizontalScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1DF0BC271D30D58C0003214D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKFHorizontalScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.SKFHorizontalScreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKFHorizontalScreen.app/SKFHorizontalScreen";
+			};
+			name = Debug;
+		};
+		1DF0BC281D30D58C0003214D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKFHorizontalScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.SKFHorizontalScreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKFHorizontalScreen.app/SKFHorizontalScreen";
+			};
+			name = Release;
+		};
+		1DF0BC2A1D30D58C0003214D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKFHorizontalScreenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.SKFHorizontalScreenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKFHorizontalScreen;
+			};
+			name = Debug;
+		};
+		1DF0BC2B1D30D58C0003214D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKFHorizontalScreenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.SKFHorizontalScreenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKFHorizontalScreen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DF0BBF11D30D58C0003214D /* Build configuration list for PBXProject "SKFHorizontalScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF0BC211D30D58C0003214D /* Debug */,
+				1DF0BC221D30D58C0003214D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF0BC231D30D58C0003214D /* Build configuration list for PBXNativeTarget "SKFHorizontalScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF0BC241D30D58C0003214D /* Debug */,
+				1DF0BC251D30D58C0003214D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DF0BC261D30D58C0003214D /* Build configuration list for PBXNativeTarget "SKFHorizontalScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF0BC271D30D58C0003214D /* Debug */,
+				1DF0BC281D30D58C0003214D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DF0BC291D30D58C0003214D /* Build configuration list for PBXNativeTarget "SKFHorizontalScreenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF0BC2A1D30D58C0003214D /* Debug */,
+				1DF0BC2B1D30D58C0003214D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DF0BBEE1D30D58C0003214D /* Project object */;
+}
